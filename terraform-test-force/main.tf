@@ -17,7 +17,7 @@ resource "null_resource" "resource3" {
  }
 }
 
-resource "random_integer" "not-staff-policy" {
+resource "random_integer" "cut-paper-shake-him" {
   count = 1
   min = 32
   max = 180
