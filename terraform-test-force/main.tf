@@ -17,7 +17,7 @@ resource "null_resource" "resource3" {
  }
 }
 
-resource "random_integer" "father-increase-put" {
+resource "random_integer" "knowledge-should" {
   count = 1
   min = 32
   max = 180
