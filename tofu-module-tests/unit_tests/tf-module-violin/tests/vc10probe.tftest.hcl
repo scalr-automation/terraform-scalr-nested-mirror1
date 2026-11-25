@@ -11,7 +11,7 @@ run "report" {
     source = "./tests/report"
   }
   assert {
-    condition     = false
+    condition     = output.r == "never-matches"
     error_message = "VC10 ${output.r}"
   }
 }
